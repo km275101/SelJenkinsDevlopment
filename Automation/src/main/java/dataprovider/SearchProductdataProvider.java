@@ -12,7 +12,7 @@ import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 public class SearchProductdataProvider {
-	public String path = "/media/kammy/Local Disk2/New folder/Automation/Automation/TestData.xlsx";
+	public String path = "./TestData.xlsx";
 	public XSSFWorkbook workbook;
 	FileInputStream fis;
 	/*public LogindataProvider(String path) {
